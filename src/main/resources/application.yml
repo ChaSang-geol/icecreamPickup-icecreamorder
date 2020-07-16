@@ -38,9 +38,9 @@ logging:
 server:
   port: 8081
 
-#feign:
-#  hystrix:
-#    enabled: true
+feign:
+  hystrix:
+    enabled: true
 
 # To set thread isolation to SEMAPHORE
 #hystrix:
@@ -50,11 +50,11 @@ server:
 #        isolation:
 #          strategy: SEMAPHORE
 
-#hystrix:
-#  command:
+hystrix:
+  command:
     # 전역설정
-#    default:
-#      execution.isolation.thread.timeoutInMilliseconds: 610
+    default:
+      execution.isolation.thread.timeoutInMilliseconds: 610
 ---
 
 spring:
