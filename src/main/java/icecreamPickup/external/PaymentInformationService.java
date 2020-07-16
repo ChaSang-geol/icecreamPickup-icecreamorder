@@ -10,7 +10,7 @@ import java.util.Date;
 @FeignClient(name="pay", url="http://icecreampickup-pay:8080")
 //@FeignClient(name="pay", url="http://localhost:8083")
 public interface PaymentInformationService {
-
+//
     @RequestMapping(method= RequestMethod.POST, path="/paymentInformations")
     public void payment(@RequestBody PaymentInformation paymentInformation);
 
