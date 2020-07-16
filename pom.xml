@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>icecreamPickup</groupId>
-	<artifactId>icecreamorder</artifactId>
+	<artifactId>icecreampickup-icecreamorder</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>icecreamorder</name>
+	<name>icecreampickup-icecreamorder</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
